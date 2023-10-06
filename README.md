@@ -136,9 +136,6 @@ Calculated the proportion of the bar coupons that were accepted. It's observed t
 
 It's observed that the acceptance rate of drivers who visit bar more than once a month and over 25 years of age is 3 times more than all others. So, there is no difference of acceptance rate from the above scenario
 
-5. Use the same process to compare the acceptance rate between drivers who go to bars more than once a month and had passengers that were not a kid and had occupations other than farming, fishing, or forestry. 
-
-
 ### Scenario: 
 Wanted to compare the acceptance rate between drivers who go to bars more than once a month and had passengers that were not a kid and had occupations other than farming, fishing, or forestry, had to run multiple queries to arrive at the dataset required to calculate the acceptance rate.
     1. Queried for drivers who visit bar more than once a month. 
@@ -148,10 +145,12 @@ Wanted to compare the acceptance rate between drivers who go to bars more than o
 Then calculated the acceptance rate between those who accepted and rest others
 
 Used countplot function to plot and know various passangers
-![image-2.png](attachment:image-2.png)
+<img width="491" alt="Capture" src="https://github.com/jyothiknj/Test/assets/35855780/e1e8dd40-0760-4835-bab2-d0249135029f">
+
 
 Used countplot to know various occupations of drivers
-![image.png](attachment:image.png)
+
+<img width="472" alt="Capture" src="https://github.com/jyothiknj/Test/assets/35855780/9b376cb7-71ac-4aee-847d-86294902536d">
 
 ### Observation: 
 The acceptance rate between drivers who go to bars more than once a month and had passengers that were not a kid and had occupations other than farming, fishing, or forestry and others is  0.7132486388384754
