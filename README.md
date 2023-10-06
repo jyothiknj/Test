@@ -346,6 +346,3 @@ These two poins will highly increase the overall acceptance rate of the CoffeeHo
 Most of the CoffeeHouse coupons are issued to drivers driving to a destination in an opposite direction of the venue. I would like to collect more data where CoffeeHouse coupons are issued to the driving driving in the same direction. This will definitely impact the acceptance rate of the coupons
 
 
-```python
-
-```
