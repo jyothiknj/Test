@@ -96,7 +96,8 @@ To begin with, looked at what proportion of the total observations chose to acce
 
 ### Created another histogram analyzing the coupon acceptance behavior with the temperature. Set bins = 5 to showcase the data a bit closer in the distribution
 
-![image-4.png](attachment:image-4.png)
+<img width="533" alt="Capture" src="https://github.com/jyothiknj/Test/assets/35855780/1b437d68-17e2-499f-965d-62281ce48e0c">
+
 
 ### Bar Coupons Investigation
 
@@ -113,9 +114,8 @@ Calculated the proportion of the bar coupons that were accepted. It's observed t
 5. Calculated the total number of acceptances by drivers who visited bar 4 times or more in last two months
 6. Compared the two values
 
-![image.png](attachment:image.png)
+<img width="588" alt="Capture" src="https://github.com/jyothiknj/Test/assets/35855780/87c9bcc3-7d7d-48d2-ae3c-3976b398fc6c">
 
-![image-2.png](attachment:image-2.png)
 
 ### Observation: It's observed that drivers who visit bar 3 times or fewer are 3 times higher probable to accept the Bar coupons than those who visit the bar 4 times or more
 
@@ -128,9 +128,8 @@ Calculated the proportion of the bar coupons that were accepted. It's observed t
 4. Using query and shape functions calculated the individual acceptance ratios for the drivers of age group 25 or 
 6. Compared the two values
 
-![image.png](attachment:image.png)
-
-![image-3.png](attachment:image-3.png)
+<img width="579" alt="Capture" src="https://github.com/jyothiknj/Test/assets/35855780/104c8b2b-aae3-4e4f-8b0c-408c47ee59c6">
+<img width="562" alt="Capture" src="https://github.com/jyothiknj/Test/assets/35855780/7b39ffe4-e8af-4450-aed5-e27c4adef3a5">
 
 
 ### Observation: 
