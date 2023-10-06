@@ -57,7 +57,7 @@ The attributes of this data set include:
 This is an interesting data set showcasing different kind of coupons offered to drivers with different lifestyles. 
 Started my analysis looking at the data set information first. Imported all the required libraries and used read_csv function in pandas to read the dataset into a dataframe. Looked for any missing data using Python isnull function.
 
-![image.png](attachment:image.png)
+<img width="240" alt="Capture" src="https://github.com/jyothiknj/Test/assets/35855780/846ec3a6-2f65-4616-9ec8-4ced04a4d318">
 
 
 
@@ -71,7 +71,8 @@ Started my analysis looking at the data set information first. Imported all the 
 
 4. Cleaned up the data in 'age' column. Updated value '50plus' to 50 and 'below21' to 20. And converted integer column to a numeric column
 
-<img width="240" alt="Capture" src="https://github.com/jyothiknj/Test/assets/35855780/846ec3a6-2f65-4616-9ec8-4ced04a4d318">
+
+<img width="247" alt="Capture" src="https://github.com/jyothiknj/Test/assets/35855780/019f34a1-a9a7-4230-b574-833da74420c2">
 
  
 ## Data Exploration Begins
@@ -80,7 +81,8 @@ Now with the clean dataset, started exploring the data patterns, behavior etc. t
 To begin with, looked at what proportion of the total observations chose to accept the coupon. It's a total of 56.61%
 
 ### Plotted a bar plot to see visualize the coupon column.
-![image-2.png](attachment:image-2.png)
+
+<img width="571" alt="Capture" src="https://github.com/jyothiknj/Test/assets/35855780/e25e7804-33b6-4ec0-a860-ff85e8f5ab8a">
 
 ### Also, plotted a distribution plot to observe the number of acceptances and rejectances for each coupon category 
 
