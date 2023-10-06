@@ -71,62 +71,9 @@ Started my analysis looking at the data set information first. Imported all the 
 
 4. Cleaned up the data in 'age' column. Updated value '50plus' to 50 and 'below21' to 20. And converted integer column to a numeric column
 
-![image.png](attachment:image.png)
+<img width="240" alt="Capture" src="https://github.com/jyothiknj/Test/assets/35855780/846ec3a6-2f65-4616-9ec8-4ced04a4d318">
 
-
-
-```python
-data_clean.info()
-```
-
-    <class 'pandas.core.frame.DataFrame'>
-    Int64Index: 12642 entries, 0 to 12683
-    Data columns (total 25 columns):
-     #   Column                Non-Null Count  Dtype 
-    ---  ------                --------------  ----- 
-     0   destination           12642 non-null  object
-     1   passanger             12642 non-null  object
-     2   weather               12642 non-null  object
-     3   temperature           12642 non-null  int64 
-     4   time                  12642 non-null  object
-     5   coupon                12642 non-null  object
-     6   expiration            12642 non-null  object
-     7   gender                12642 non-null  object
-     8   age                   12642 non-null  int64 
-     9   maritalStatus         12642 non-null  object
-     10  has_children          12642 non-null  int64 
-     11  education             12642 non-null  object
-     12  occupation            12642 non-null  object
-     13  income                12642 non-null  object
-     14  Bar                   12577 non-null  object
-     15  CoffeeHouse           12467 non-null  object
-     16  CarryAway             12533 non-null  object
-     17  RestaurantLessThan20  12554 non-null  object
-     18  Restaurant20To50      12495 non-null  object
-     19  toCoupon_GEQ5min      12642 non-null  int64 
-     20  toCoupon_GEQ15min     12642 non-null  int64 
-     21  toCoupon_GEQ25min     12642 non-null  int64 
-     22  direction_same        12642 non-null  int64 
-     23  direction_opp         12642 non-null  int64 
-     24  Y                     12642 non-null  int64 
-    dtypes: int64(9), object(16)
-    memory usage: 2.5+ MB
-    
-
-
-```python
-data_clean['Y'].value_counts()
-```
-
-
-
-
-    1    7181
-    0    5461
-    Name: Y, dtype: int64
-
-
-
+ 
 ## Data Exploration Begins
 
 Now with the clean dataset, started exploring the data patterns, behavior etc. to understand the acceptance rate of the coupons.
