@@ -86,11 +86,13 @@ To begin with, looked at what proportion of the total observations chose to acce
 
 ### Also, plotted a distribution plot to observe the number of acceptances and rejectances for each coupon category 
 
-![image.png](attachment:image.png)
+<img width="563" alt="Capture" src="https://github.com/jyothiknj/Test/assets/35855780/73cc8387-2365-4cf4-b8d7-a3ea58358e9b">
+
 
 ### Plotted a histogram to visualize the temperature column
 
-![image-3.png](attachment:image-3.png)
+<img width="464" alt="Capture" src="https://github.com/jyothiknj/Test/assets/35855780/8acf9a24-1813-4b36-8c5b-883024dd4a1e">
+
 
 ### Created another histogram analyzing the coupon acceptance behavior with the temperature. Set bins = 5 to showcase the data a bit closer in the distribution
 
