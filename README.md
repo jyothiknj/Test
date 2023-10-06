@@ -193,12 +193,13 @@ As a next step, I would like to further analyze the coupon acceptance behavior b
 
 Created a dataframe with drivers who received coffee house coupons and started exploration
 
-
 Created a countplot to know frequency of visits of various drivers
-![image-2.png](attachment:image-2.png)
+
+<img width="420" alt="Capture" src="https://github.com/jyothiknj/Test/assets/35855780/f32dd9f7-ee97-4131-b3be-c134b2e20ba3">
 
 Created a visualization using violin plot to see the distribution of drivers by the frequency of visits to the CoffeeHouse, and also visualize the groups who have higher coupon acceptances
-![image.png](attachment:image.png)
+
+<img width="561" alt="Capture" src="https://github.com/jyothiknj/Test/assets/35855780/faa604e9-8fbd-4992-bd5f-738565649097">
 
 ### CoffeHouse coupon acceptance rate comparison based on drivers' coffee house visit frequency
 
@@ -215,17 +216,19 @@ Created a piechart to visualize percentage of total accepted Coffehouse coupons 
 
 The acceptance rate between those who went to a CoffeeHouse 3 or fewer times a month to those who went more is 2.008417508417508
 
-
-![image.png](attachment:image.png)
+<img width="503" alt="Capture" src="https://github.com/jyothiknj/Test/assets/35855780/e62392c4-0b9b-4b92-9362-592ad00e929b">
 
 #### Below visualization shows that higher the temperature, higher is the number of Coffee House coupons issued and also accepted
 
 Created a visualization using displot function from Seaborn library to observe the acceptances of Coffeehouse coupons issued during different temperatures
 
-![image.png](attachment:image.png)
+<img width="406" alt="Capture" src="https://github.com/jyothiknj/Test/assets/35855780/0a497251-bbc4-462b-961e-d7be22ccb376">
+
 
 #### Below pie chart shows that around 64% of the accepted CoffeeHouse coupons are by drivers driving in 80 degrees temperature
-![image.png](attachment:image.png)
+
+<img width="419" alt="Capture" src="https://github.com/jyothiknj/Test/assets/35855780/9c5a3e0a-ed69-459d-b885-9869c6493085">
+
 
 #### Exploring acceptance ratios of CoffeeHouse coupons by the drivers that are -
 
@@ -240,10 +243,9 @@ Created a visualization using displot function from Seaborn library to observe t
 
 #### Observation: Below visualization shows that widowed drivers go once or less to the CoffeHouse in a month
 
-![image-2.png](attachment:image-2.png)
-![image.png](attachment:image.png)
+<img width="604" alt="Capture" src="https://github.com/jyothiknj/Test/assets/35855780/ea69efc0-2fc4-404d-ab90-cfee0cfdc978">
 
-
+<img width="597" alt="Capture" src="https://github.com/jyothiknj/Test/assets/35855780/ec37cfa3-f492-4193-9491-ce19dddee6f8">
 
 #### Creating a new column CH and assigning numeric values to it based on the values in the CoffeeHouse column
 #### Segregating the dataset in to three pieces 
@@ -254,18 +256,21 @@ Created a visualization using displot function from Seaborn library to observe t
 
 #### Observation - Below barplot shows that the acceptance of CoffeeHouse coupons is maximum at 7 am when the venue is in the same direction as the driver's destination
 
-![image.png](attachment:image.png)
+<img width="417" alt="Capture" src="https://github.com/jyothiknj/Test/assets/35855780/a1cea04c-e422-4a57-a0aa-5b8773116310">
+
 
 #### Observation: Below visualization clearly shows drivers are driving to an non-urgent place during the mornings betwen 10am and 2 pm.
 
-![image.png](attachment:image.png)
+<img width="525" alt="Capture" src="https://github.com/jyothiknj/Test/assets/35855780/d58d0517-b804-4b60-9c4c-c14103a60587">
+
 
 #### Observation - From the above and below visualizations, it's clear that drivers when driving to a non-urgent place and in the morning time tend to accept CoffeeHouse coupons
 Creating a new numeric column time_numeric and assigning time values as in 24 hour clock time_numeric column is assigned 7 for 7AM, 10 for 10AM, 14 for 2PM, 18 for 6PM and 22 for 10PM
 Below plot shows the acceptance rate of CoffeeHouse coupons is greater when they are issued for the drivers 
 driving between 10 am and 2 pm
 
-![image.png](attachment:image.png)
+
+<img width="394" alt="Capture" src="https://github.com/jyothiknj/Test/assets/35855780/72c157b0-f9f4-4953-bd98-67c7de0adaca">
 
 
 
@@ -283,7 +288,8 @@ While 53.07% of the drivers accepted the Coffeehouse coupons when their venue is
 Below, we will explore and understand what's the best time for offering coupons so that the acceptance rate is high
 #### Grouped the rows in the dataset using Groupby function and applied Sum() on the numeric values
 
-![image.png](attachment:image.png)
+<img width="413" alt="Capture" src="https://github.com/jyothiknj/Test/assets/35855780/c281fa89-52a1-4dc7-b647-82379468b4a1">
+
 
 
 #### Observation:
@@ -292,7 +298,8 @@ Using python Groupby function, showcased that number of acceptances is quite hig
 
 Also plotted the same using a pie chart that as well confirms 10 am is the best time to offer a coupon to be accepted and the second best is 6 pm. 
 
-![image.png](attachment:image.png)
+<img width="457" alt="Capture" src="https://github.com/jyothiknj/Test/assets/35855780/0aa040fb-687f-473b-bf31-e7594503d500">
+
 
 ### Exploration with Temperature data
 
@@ -306,15 +313,18 @@ Both the plotting in piechart and python grouping function show case the same re
 
 So, it's good to issue more CoffeeHouse coupons when it's hot.
 
-![image.png](attachment:image.png)
+<img width="441" alt="Capture" src="https://github.com/jyothiknj/Test/assets/35855780/b4158cb7-13f6-4c9d-9c8e-f279859a76de">
+
 
 ### Exploration with Passanger data
 
 ### Observation 
 
 Below countplot shows that when the passangers are either Friends or kids or partners, the coupon acceptance rate is higher than when they are alone.
-![image.png](attachment:image.png)
-![image-2.png](attachment:image-2.png)
+
+<img width="427" alt="Capture" src="https://github.com/jyothiknj/Test/assets/35855780/92092141-d0e8-495a-99d9-9be65b9df492">
+
+<img width="488" alt="Capture" src="https://github.com/jyothiknj/Test/assets/35855780/ddf457cc-9609-4447-8ac1-d67e5057d76c">
 
 #### Alone Passengers acceptance analysis when they are driving in hot temperatures
 
@@ -322,13 +332,14 @@ Used a countplot to see at what time of the day alone driving drivers accept the
 This plot also clearly shows acceptance rate is highest at 10 am when compared to other times in the day.
 It makes sense as many people would like to have a coffee early in the day to be active and get things done faster.
 
-![image.png](attachment:image.png)
+
+<img width="563" alt="Capture" src="https://github.com/jyothiknj/Test/assets/35855780/5696ada3-d823-451d-8b6f-88f274e60182">
 
 
 ### Recommendations
 
-With all the observations made while analyzing the data for CoffeeHouse coupons, I highly recommend cutting down the issue of CoffeeHouse Coupons late in the night and increase the issue of coupons at all times before 2 pm
-This will highly increase the acceptance rate of the CoffeeHouse coupons
+With all the observations made while analyzing the data for CoffeeHouse coupons, I highly recommend cutting down the issue of CoffeeHouse Coupons late in the night and increase the issue of coupons at all times before 2 pm. Also, the acceptance rate will be higher if the coupons are issued to the drivers when they are driving to no urgent destinations.
+These two poins will highly increase the overall acceptance rate of the CoffeeHouse coupons.
 
 ### Next Steps
 
